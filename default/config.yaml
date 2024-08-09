@@ -8,7 +8,7 @@ listen: false
 port: 8000
 # -- SECURITY CONFIGURATION --
 # Toggle whitelist mode
-whitelistMode: true
+whitelistMode: false
 # Whitelist will also verify IP in X-Forwarded-For / X-Real-IP headers
 enableForwardedWhitelist: true
 # Whitelist of allowed IP addresses
@@ -31,7 +31,7 @@ cookieSecret: ''
 # Disable CSRF protection - NOT RECOMMENDED
 disableCsrfProtection: false
 # Disable startup security checks - NOT RECOMMENDED
-securityOverride: false
+securityOverride: true
 # -- ADVANCED CONFIGURATION --
 # Open the browser automatically
 autorun: true
